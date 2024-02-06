@@ -1,5 +1,3 @@
-# ETL and Data Migration
-
 ### Extracting the Data
 The client provided a .zip file containing historical data that needed to be migrated into our system.
 
