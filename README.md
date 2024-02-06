@@ -9,7 +9,8 @@ Beginning any data analytics project revolves around look at the data you are pr
 ### Loading the Data
 Once the script was tested and successfully ran, the data conversion was validated to ensure all necessary information was imported as expected.
 
-#### The Code
+## The Code
+
 
 sp_addlinkedserver *SERVER_NAME* ,'SQL Server'
 SELECT * FROM OPENQUERY(*SERVER_NAME* , 'SELECT * FROM [*HISTORICAL_IMPORT*]..[*Client_Profile*]')
@@ -1067,3 +1068,8 @@ SELECT MAX(encounter_id) FROM NOTE_LOG
 
 UPDATE Encounter_Numbers
 SET encounter = 100000
+
+##CONCLUSION
+Self reflecting on my work, for this import I would focus a lot more of the data cleanup within Excel to help mitigrate the number of update scripts that needed to be ran. 
+
+Overall, I was very pleased with the data migration, and more specifically on translating discrete data into a defined historical note. that can be printed and presented to auditors. This feature that I've scripted helped the client eliminate the need to pay archival access fees to their previous vendor.  
