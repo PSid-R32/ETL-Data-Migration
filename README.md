@@ -1071,10 +1071,9 @@ Once the script was tested and successfully ran, the data conversion was validat
 ## OUTPUT
 When dealing with PHI, there are a lot of items that restrict the ability to display my work. Here is a sample of a file output with all identifying information redacted. 
 
-[Historical Document.pdf](https://github.com/PSid-R32/ETL-Data-Migration/files/14187300/Historical.Document.pdf)
-
+[Sample Historical File.pdf](https://github.com/PSid-R32/ETL-Data-Migration/files/14187300/Historical.Document.pdf)
 
 ## CONCLUSION
 Self reflecting on my work, for this import I would allocate more time towards the data cleanup within Excel to help mitigrate the number of update scripts that needed to be ran in SSMS. 
 
-Overall, I was very pleased with the data migration, and more specifically on translating discrete data into a defined historical note. that can be printed and presented to auditors. This feature that I've scripted helped the client eliminate the need to pay archival access fees to their previous vendor.  
+Overall, I was very pleased with the data migration, and more specifically on translating discrete data into a defined historical note. that can be printed and presented to auditors. This feature that I've scripted helped the client eliminate the need to pay archival access fees to their previous vendor.
