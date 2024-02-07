@@ -7,7 +7,7 @@ Beginning any data analytics project revolves around look at the data you are pr
 ### Loading the Data
 Once the script was tested and successfully ran, the data conversion was validated to ensure all necessary information was imported as expected.
 
-## The Code
+## Scripting ETL Practices in T-SQL
 
 
 	sp_addlinkedserver *SERVER_NAME* ,'SQL Server'
@@ -1067,8 +1067,13 @@ Once the script was tested and successfully ran, the data conversion was validat
 	
 	UPDATE Encounter_Numbers
 	SET encounter = 100000
+## OUTPUT
+When dealing with PHI, there are a lot of items that restrict the ability to display my work. Here is a sample of a file output with all identifying information redacted. 
+
+[Historical Document.pdf](https://github.com/PSid-R32/ETL-Data-Migration/files/14187300/Historical.Document.pdf)
+
 
 ## CONCLUSION
-Self reflecting on my work, for this import I would focus a lot more of the data cleanup within Excel to help mitigrate the number of update scripts that needed to be ran. 
+Self reflecting on my work, for this import I would allocate more time towards the data cleanup within Excel to help mitigrate the number of update scripts that needed to be ran in SSMS. 
 
 Overall, I was very pleased with the data migration, and more specifically on translating discrete data into a defined historical note. that can be printed and presented to auditors. This feature that I've scripted helped the client eliminate the need to pay archival access fees to their previous vendor.  
