@@ -1067,6 +1067,7 @@ Once the script was tested and successfully ran, the data conversion was validat
 	
 	UPDATE Encounter_Numbers
 	SET encounter = 100000
+
 ## OUTPUT
 When dealing with PHI, there are a lot of items that restrict the ability to display my work. Here is a sample of a file output with all identifying information redacted. 
 
