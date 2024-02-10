@@ -1074,6 +1074,6 @@ When dealing with PHI, there are a lot of items that restrict the ability to dis
 [Sample Historical File.pdf](https://github.com/PSid-R32/ETL-Data-Migration/files/14187300/Historical.Document.pdf)
 
 ## CONCLUSION
-Self reflecting on my work, for this import I would allocate more time towards the data cleanup within Excel to help mitigrate the number of update scripts that needed to be ran in SSMS. 
+Self reflecting on my work, for this import I would allocate more time towards the data cleanup within Excel to help mitigate the number of update scripts that needed to be ran in SSMS. 
 
 Overall, I was very pleased with the data migration, and more specifically on translating discrete data into a defined historical note. that can be printed and presented to auditors. This feature that I've scripted helped the client eliminate the need to pay archival access fees to their previous vendor.
